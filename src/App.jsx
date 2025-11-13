@@ -1,9 +1,25 @@
+import { Routes, Route, Link } from "react-router-dom";
+
+function Home() {
+  return <h1>Home 🏠</h1>;
+}
+
+function About() {
+  return <h1>Sobre mí 👨‍🍳</h1>;
+}
+
 export default function App() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-slate-900">
-      <h1 className="text-4xl font-bold text-emerald-400">
-        Portafolio-neu listo 🎉
-      </h1>
+    <div>
+      <nav style={{ display: "flex", gap: "1rem" }}>
+        <Link to="/">Home</Link>
+        <Link to="/about">Sobre mí</Link>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
     </div>
   );
 }
