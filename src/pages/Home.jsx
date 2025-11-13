@@ -1,3 +1,15 @@
-export default function Home() {
-  return <h1 className="text-3xl font-bold">Home (Portafolio)</h1>;
+import Hero from '../components/Hero'
+import Yo from '../components/Yo'
+import Sobremi from '../components/Sobremi'
+
+function Home() {
+    return (
+        <>
+            <Hero />
+            <Yo />
+            <Sobremi />
+        </>
+    )
 }
+
+export default Home
