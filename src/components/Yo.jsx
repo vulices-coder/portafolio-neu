@@ -6,13 +6,10 @@ function Yo() {
             <div className="yo-content">
                 <div className="yo-image">
                     <img 
-                        src="/images/mi-imagen.jpg"  // ← Ruta desde public/
+                        src="/mi-image.jpg"  // ← Cambiado a ruta public
                         alt=""
                         className="profile-photo"
                     />
-                    <div className="placeholder-image">
-                        <span>mi-imagen</span>
-                    </div>
                 </div>
                 
                 <div className="yo-text">
@@ -30,12 +27,12 @@ function Yo() {
                             <strong>Ubicación:</strong> Berlin, Alemania
                         </div>
                         <div className="detail-item">
-                            <strong>Especialidad:</strong> Framer, Figma, Bootstrap, React, JavaScript, UI/UX
+                            <strong>Especialidad:</strong> React, JavaScript, UI/UX
                         </div>
                     </div>
                     
                     <button className="contact-btn">
-                        Contáctame
+                        Contáctame: cholocreator@gmx.de
                     </button>
                 </div>
             </div>
