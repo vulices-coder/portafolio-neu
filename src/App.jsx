@@ -1,25 +1,21 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Home from "./pages/Home";           // Desde pages/
-import Proyectos from "./pages/Proyectos"; // Desde pages/
-import Contacto from "./pages/Contacto";   // Desde pages/
-import Sobremi from "./components/Sobremi"; // Desde components/
+import Hero from './components/Hero'
+import Yo from './components/Yo'
+import Sobremi from './components/Sobremi'
 
 function App() {
-  return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<Sobremi />} />
-        <Route path="/projects" element={<Proyectos />} />
-        <Route path="/contact" element={<Contacto />} />
-      </Routes>
-      <Footer />
-    </Router>
-  );
+    return (
+        <div className="w-full">
+            {/* Componente Hero */}
+            <Hero />
+            
+            {/* Componente Yo */}
+            <Yo />
+            
+            {/* Componente Sobremi */}
+            <Sobremi />
+        </div>
+    )
 }
 
-export default App;
+export default App
 
