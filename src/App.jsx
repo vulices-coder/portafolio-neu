@@ -5,13 +5,8 @@ import Sobremi from './components/Sobremi'
 function App() {
     return (
         <div className="w-full">
-            {/* Componente Hero */}
             <Hero />
-            
-            {/* Componente Yo */}
             <Yo />
-            
-            {/* Componente Sobremi */}
             <Sobremi />
         </div>
     )

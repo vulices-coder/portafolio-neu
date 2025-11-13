@@ -1,13 +1,15 @@
 /** @type {import('tailwindcss').Config} */
-
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        'fade-in-up': 'fadeInUp 1s ease-out forwards',
+      }
+    },
   },
   plugins: [],
-}
-
+};
