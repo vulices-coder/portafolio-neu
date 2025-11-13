@@ -1,15 +1,17 @@
 import './Yo.css'
 
+
 function Yo() {
     return (
         <section className="yo-container">
             <div className="yo-content">
                 <div className="yo-image">
                     <img 
-                        src="/mi-image.jpg"  // ← Cambiado a ruta public
+                        src="/public/mi-imagen.jpg"  // ← Ruta desde public/
                         alt=""
                         className="profile-photo"
                     />
+                  
                 </div>
                 
                 <div className="yo-text">
@@ -27,12 +29,12 @@ function Yo() {
                             <strong>Ubicación:</strong> Berlin, Alemania
                         </div>
                         <div className="detail-item">
-                            <strong>Especialidad:</strong> React, JavaScript, UI/UX
+                            <strong>Especialidad:</strong> Framer, Figma, Bootstrap, React, JavaScript, UI/UX
                         </div>
                     </div>
                     
                     <button className="contact-btn">
-                        Contáctame: cholocreator@gmx.de
+                        Contáctame
                     </button>
                 </div>
             </div>

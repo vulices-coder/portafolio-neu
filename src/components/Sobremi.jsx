@@ -18,7 +18,7 @@ function Sobremi() {
                     <div className="sobremi-card">
                         <h3>💼 Experiencia</h3>
                         <p>
-                            +3 años desarrollando aplicaciones web modernas 
+                            +8 meses desarrollando aplicaciones web modernas 
                             utilizando las últimas tecnologías del mercado.
                         </p>
                     </div>
