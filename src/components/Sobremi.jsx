@@ -35,11 +35,11 @@ function Sobremi() {
                 <div className="skills-section">
                     <h3>Tecnologías y Herramientas</h3>
                     <div className="skills-list">
+                        <span className="skill-tag">Framer</span>
                         <span className="skill-tag">React</span>
-                        <span className="skill-tag">JavaScript</span>
                         <span className="skill-tag">HTML5</span>
                         <span className="skill-tag">CSS3</span>
-                        <span className="skill-tag">Node.js</span>
+                        <span className="skill-tag">Java Script</span>
                         <span className="skill-tag">Git</span>
                         <span className="skill-tag">Figma</span>
                         <span className="skill-tag">Vite</span>
